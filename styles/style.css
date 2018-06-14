@@ -166,11 +166,11 @@ h2 {
   padding: 15px 0;
 }
 .reviews ul li img {
+  float: left;
   width: 75px;
   height: 75px;
   margin-right: 15px;
   display: block;
-  float: left;
 }
 @media all and (min-width: 768px) and (max-width: 5000px) {
   .reviews ul li:nth-last-of-type(-n+2) {
@@ -200,7 +200,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-end;
-  margin: 0px;
+  margin: 0;
   padding: 0;
 }
 @media all and (min-width: 0) and (max-width: 699px) {
@@ -221,7 +221,7 @@ h2 {
     margin-bottom: 15px;
   }
   .buyItNow ul > li:nth-last-child(1) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
 .buyItNow ul > li h3 {
